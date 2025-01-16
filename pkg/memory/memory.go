@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/marshal"
-	"github.com/jaypipes/ghw/pkg/option"
-	"github.com/jaypipes/ghw/pkg/unitutil"
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/yuhuaqi/ghw/pkg/context"
+	"github.com/yuhuaqi/ghw/pkg/marshal"
+	"github.com/yuhuaqi/ghw/pkg/option"
+	"github.com/yuhuaqi/ghw/pkg/unitutil"
+	"github.com/yuhuaqi/ghw/pkg/util"
 )
 
 // Module describes a single physical memory module for a host system. Pretty

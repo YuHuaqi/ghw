@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/linuxpath"
-	"github.com/jaypipes/ghw/pkg/pci"
-	"github.com/jaypipes/ghw/pkg/topology"
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/yuhuaqi/ghw/pkg/context"
+	"github.com/yuhuaqi/ghw/pkg/linuxpath"
+	"github.com/yuhuaqi/ghw/pkg/pci"
+	"github.com/yuhuaqi/ghw/pkg/topology"
+	"github.com/yuhuaqi/ghw/pkg/util"
 )
 
 const (

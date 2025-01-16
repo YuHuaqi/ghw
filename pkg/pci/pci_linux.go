@@ -12,12 +12,12 @@ import (
 
 	"github.com/jaypipes/pcidb"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/linuxpath"
-	"github.com/jaypipes/ghw/pkg/option"
-	pciaddr "github.com/jaypipes/ghw/pkg/pci/address"
-	"github.com/jaypipes/ghw/pkg/topology"
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/yuhuaqi/ghw/pkg/context"
+	"github.com/yuhuaqi/ghw/pkg/linuxpath"
+	"github.com/yuhuaqi/ghw/pkg/option"
+	pciaddr "github.com/yuhuaqi/ghw/pkg/pci/address"
+	"github.com/yuhuaqi/ghw/pkg/topology"
+	"github.com/yuhuaqi/ghw/pkg/util"
 )
 
 const (

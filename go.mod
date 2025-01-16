@@ -1,4 +1,4 @@
-module github.com/jaypipes/ghw
+module github.com/yuhuaqi/ghw
 
 go 1.21
 

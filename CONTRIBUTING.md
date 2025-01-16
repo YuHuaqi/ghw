@@ -3,7 +3,7 @@
 We welcome any and all contributions to `ghw`! Filing [bug reports][gh-issues],
 asking questions and submitting patches are all encouraged.
 
-[gh-issues]: https://github.com/jaypipes/ghw/issues
+[gh-issues]: https://github.com/yuhuaqi/ghw/issues
 
 ## Submitting patches via pull requests
 

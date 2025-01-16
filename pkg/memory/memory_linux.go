@@ -17,10 +17,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jaypipes/ghw/pkg/context"
-	"github.com/jaypipes/ghw/pkg/linuxpath"
-	"github.com/jaypipes/ghw/pkg/unitutil"
-	"github.com/jaypipes/ghw/pkg/util"
+	"github.com/yuhuaqi/ghw/pkg/context"
+	"github.com/yuhuaqi/ghw/pkg/linuxpath"
+	"github.com/yuhuaqi/ghw/pkg/unitutil"
+	"github.com/yuhuaqi/ghw/pkg/util"
 )
 
 const (
@@ -102,7 +102,7 @@ func AreaForNode(ctx *context.Context, nodeID int) (*Area, error) {
 		// determined from syslog or the usable bytes
 		//
 		// see: https://bugzilla.redhat.com/show_bug.cgi?id=1794160
-		// see: https://github.com/jaypipes/ghw/issues/336
+		// see: https://github.com/yuhuaqi/ghw/issues/336
 		totPhys = memTotalPhysicalBytesFromSyslog(paths)
 	}
 

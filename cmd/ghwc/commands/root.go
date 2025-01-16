@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jaypipes/ghw"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+	"github.com/yuhuaqi/ghw"
 )
 
 const (
@@ -51,7 +51,7 @@ var rootCmd = &cobra.Command{
 
 Discover hardware information.
 
-https://github.com/jaypipes/ghw
+https://github.com/yuhuaqi/ghw
 `,
 	RunE: showAll,
 }
