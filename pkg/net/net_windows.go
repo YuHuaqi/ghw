@@ -124,7 +124,7 @@ func nics(win32NetDescriptions []win32NetworkAdapter) []*NIC {
 func netDeviceName(description win32NetworkAdapter) string {
 	var name string
 	if strings.TrimSpace(*description.NetConnectionID) != "" {
-		name = *description.NetConnectionID + " - " + *description.Description
+		name = *description.NetConnectionID
 	} else {
 		name = *description.Description
 	}
