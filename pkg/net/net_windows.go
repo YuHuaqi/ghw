@@ -149,5 +149,5 @@ func netSpeed(description win32NetworkAdapter) string {
 	}
 	// Convert speed from bits per second to megabits per second
 	speedInMbps := *description.Speed / 1_000_000
-	return fmt.Sprintf("%d Mb/s", speedInMbps)
+	return fmt.Sprintf("%dMb/s", speedInMbps)
 }
