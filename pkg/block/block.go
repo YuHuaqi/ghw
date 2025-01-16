@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yuhuaqi/ghw/pkg/context"
-	"github.com/yuhuaqi/ghw/pkg/marshal"
-	"github.com/yuhuaqi/ghw/pkg/option"
-	"github.com/yuhuaqi/ghw/pkg/unitutil"
-	"github.com/yuhuaqi/ghw/pkg/util"
+	"github.com/YuHuaqi/ghw/pkg/context"
+	"github.com/YuHuaqi/ghw/pkg/marshal"
+	"github.com/YuHuaqi/ghw/pkg/option"
+	"github.com/YuHuaqi/ghw/pkg/unitutil"
+	"github.com/YuHuaqi/ghw/pkg/util"
 )
 
 // DriveType describes the general category of drive device
@@ -107,7 +107,7 @@ func (dt *DriveType) UnmarshalJSON(b []byte) error {
 // represents more of the physical hardware interface than the storage
 // protocol, which represents more of the software interface.
 //
-// See discussion on https://github.com/yuhuaqi/ghw/issues/117
+// See discussion on https://github.com/YuHuaqi/ghw/issues/117
 type StorageController int
 
 const (

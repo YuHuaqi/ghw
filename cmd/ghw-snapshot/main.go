@@ -8,7 +8,7 @@
 package main
 
 import (
-	"github.com/yuhuaqi/ghw/cmd/ghw-snapshot/command"
+	"github.com/YuHuaqi/ghw/cmd/ghw-snapshot/command"
 )
 
 func main() {

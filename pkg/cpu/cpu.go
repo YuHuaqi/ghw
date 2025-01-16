@@ -9,9 +9,9 @@ package cpu
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw/pkg/context"
-	"github.com/yuhuaqi/ghw/pkg/marshal"
-	"github.com/yuhuaqi/ghw/pkg/option"
+	"github.com/YuHuaqi/ghw/pkg/context"
+	"github.com/YuHuaqi/ghw/pkg/marshal"
+	"github.com/YuHuaqi/ghw/pkg/option"
 )
 
 // ProcessorCore describes a physical host processor core. A processor core is

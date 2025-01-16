@@ -8,7 +8,7 @@ package chassis
 import (
 	"github.com/StackExchange/wmi"
 
-	"github.com/yuhuaqi/ghw/pkg/util"
+	"github.com/YuHuaqi/ghw/pkg/util"
 )
 
 const wqlChassis = "SELECT Caption, Description, Name, Manufacturer, Model, SerialNumber, Tag, TypeDescriptions, Version FROM CIM_Chassis"

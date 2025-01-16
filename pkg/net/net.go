@@ -9,9 +9,9 @@ package net
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw/pkg/context"
-	"github.com/yuhuaqi/ghw/pkg/marshal"
-	"github.com/yuhuaqi/ghw/pkg/option"
+	"github.com/YuHuaqi/ghw/pkg/context"
+	"github.com/YuHuaqi/ghw/pkg/marshal"
+	"github.com/YuHuaqi/ghw/pkg/option"
 )
 
 // NICCapability is a feature/capability of a Network Interface Controller

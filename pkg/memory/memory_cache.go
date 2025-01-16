@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yuhuaqi/ghw/pkg/unitutil"
+	"github.com/YuHuaqi/ghw/pkg/unitutil"
 )
 
 // CacheType indicates the type of memory stored in a memory cache.

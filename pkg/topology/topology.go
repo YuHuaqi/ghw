@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yuhuaqi/ghw/pkg/context"
-	"github.com/yuhuaqi/ghw/pkg/cpu"
-	"github.com/yuhuaqi/ghw/pkg/marshal"
-	"github.com/yuhuaqi/ghw/pkg/memory"
-	"github.com/yuhuaqi/ghw/pkg/option"
+	"github.com/YuHuaqi/ghw/pkg/context"
+	"github.com/YuHuaqi/ghw/pkg/cpu"
+	"github.com/YuHuaqi/ghw/pkg/marshal"
+	"github.com/YuHuaqi/ghw/pkg/memory"
+	"github.com/YuHuaqi/ghw/pkg/option"
 )
 
 // Architecture describes the overall hardware architecture. It can be either

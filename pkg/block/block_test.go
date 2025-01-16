@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yuhuaqi/ghw/pkg/block"
+	"github.com/YuHuaqi/ghw/pkg/block"
 
-	"github.com/yuhuaqi/ghw/testdata"
+	"github.com/YuHuaqi/ghw/testdata"
 )
 
 // nolint: gocyclo

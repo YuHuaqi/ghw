@@ -6,7 +6,7 @@
 package baseboard
 
 import (
-	"github.com/yuhuaqi/ghw/pkg/linuxdmi"
+	"github.com/YuHuaqi/ghw/pkg/linuxdmi"
 )
 
 func (i *Info) load() error {

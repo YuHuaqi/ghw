@@ -8,7 +8,7 @@ package product
 import (
 	"github.com/StackExchange/wmi"
 
-	"github.com/yuhuaqi/ghw/pkg/util"
+	"github.com/YuHuaqi/ghw/pkg/util"
 )
 
 const wqlProduct = "SELECT Caption, Description, IdentifyingNumber, Name, SKUNumber, Vendor, Version, UUID FROM Win32_ComputerSystemProduct"

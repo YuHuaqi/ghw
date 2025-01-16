@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yuhuaqi/ghw/pkg/net"
+	"github.com/YuHuaqi/ghw/pkg/net"
 )
 
 func TestNet(t *testing.T) {

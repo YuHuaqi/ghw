@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yuhuaqi/ghw/pkg/cpu"
+	"github.com/YuHuaqi/ghw/pkg/cpu"
 )
 
 // nolint: gocyclo

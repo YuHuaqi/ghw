@@ -9,21 +9,21 @@ package ghw
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw/pkg/context"
+	"github.com/YuHuaqi/ghw/pkg/context"
 
-	"github.com/yuhuaqi/ghw/pkg/accelerator"
-	"github.com/yuhuaqi/ghw/pkg/baseboard"
-	"github.com/yuhuaqi/ghw/pkg/bios"
-	"github.com/yuhuaqi/ghw/pkg/block"
-	"github.com/yuhuaqi/ghw/pkg/chassis"
-	"github.com/yuhuaqi/ghw/pkg/cpu"
-	"github.com/yuhuaqi/ghw/pkg/gpu"
-	"github.com/yuhuaqi/ghw/pkg/marshal"
-	"github.com/yuhuaqi/ghw/pkg/memory"
-	"github.com/yuhuaqi/ghw/pkg/net"
-	"github.com/yuhuaqi/ghw/pkg/pci"
-	"github.com/yuhuaqi/ghw/pkg/product"
-	"github.com/yuhuaqi/ghw/pkg/topology"
+	"github.com/YuHuaqi/ghw/pkg/accelerator"
+	"github.com/YuHuaqi/ghw/pkg/baseboard"
+	"github.com/YuHuaqi/ghw/pkg/bios"
+	"github.com/YuHuaqi/ghw/pkg/block"
+	"github.com/YuHuaqi/ghw/pkg/chassis"
+	"github.com/YuHuaqi/ghw/pkg/cpu"
+	"github.com/YuHuaqi/ghw/pkg/gpu"
+	"github.com/YuHuaqi/ghw/pkg/marshal"
+	"github.com/YuHuaqi/ghw/pkg/memory"
+	"github.com/YuHuaqi/ghw/pkg/net"
+	"github.com/YuHuaqi/ghw/pkg/pci"
+	"github.com/YuHuaqi/ghw/pkg/product"
+	"github.com/YuHuaqi/ghw/pkg/topology"
 )
 
 // HostInfo is a wrapper struct containing information about the host system's

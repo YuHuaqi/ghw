@@ -12,11 +12,11 @@ import (
 
 	"github.com/jaypipes/pcidb"
 
-	"github.com/yuhuaqi/ghw/pkg/context"
-	"github.com/yuhuaqi/ghw/pkg/marshal"
-	"github.com/yuhuaqi/ghw/pkg/option"
-	"github.com/yuhuaqi/ghw/pkg/topology"
-	"github.com/yuhuaqi/ghw/pkg/util"
+	"github.com/YuHuaqi/ghw/pkg/context"
+	"github.com/YuHuaqi/ghw/pkg/marshal"
+	"github.com/YuHuaqi/ghw/pkg/option"
+	"github.com/YuHuaqi/ghw/pkg/topology"
+	"github.com/YuHuaqi/ghw/pkg/util"
 )
 
 type Device struct {

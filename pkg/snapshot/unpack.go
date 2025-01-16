@@ -13,7 +13,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/yuhuaqi/ghw/pkg/option"
+	"github.com/YuHuaqi/ghw/pkg/option"
 )
 
 const (

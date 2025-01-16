@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/yuhuaqi/ghw/pkg/snapshot"
+	"github.com/YuHuaqi/ghw/pkg/snapshot"
 )
 
 const (

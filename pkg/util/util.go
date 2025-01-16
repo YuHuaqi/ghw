@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yuhuaqi/ghw/pkg/context"
+	"github.com/YuHuaqi/ghw/pkg/context"
 )
 
 const (

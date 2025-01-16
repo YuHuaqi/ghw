@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yuhuaqi/ghw/pkg/memory"
+	"github.com/YuHuaqi/ghw/pkg/memory"
 )
 
 // nolint: gocyclo

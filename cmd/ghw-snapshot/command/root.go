@@ -30,7 +30,7 @@ var rootCmd = &cobra.Command{
 
 Create and read ghw snapshots.
 
-https://github.com/yuhuaqi/ghw
+https://github.com/YuHuaqi/ghw
 `,
 	RunE: doCreate,
 }

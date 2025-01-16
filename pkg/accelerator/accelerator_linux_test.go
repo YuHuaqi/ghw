@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/yuhuaqi/ghw/pkg/accelerator"
-	"github.com/yuhuaqi/ghw/pkg/option"
-	"github.com/yuhuaqi/ghw/pkg/snapshot"
+	"github.com/YuHuaqi/ghw/pkg/accelerator"
+	"github.com/YuHuaqi/ghw/pkg/option"
+	"github.com/YuHuaqi/ghw/pkg/snapshot"
 
-	"github.com/yuhuaqi/ghw/testdata"
+	"github.com/YuHuaqi/ghw/testdata"
 )
 
 func testScenario(t *testing.T, filename string, expectedDevs int) {

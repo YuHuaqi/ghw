@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yuhuaqi/ghw/pkg/topology"
+	"github.com/YuHuaqi/ghw/pkg/topology"
 )
 
 // nolint: gocyclo

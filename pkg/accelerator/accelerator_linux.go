@@ -8,8 +8,8 @@ package accelerator
 import (
 	"github.com/samber/lo"
 
-	"github.com/yuhuaqi/ghw/pkg/context"
-	"github.com/yuhuaqi/ghw/pkg/pci"
+	"github.com/YuHuaqi/ghw/pkg/context"
+	"github.com/YuHuaqi/ghw/pkg/pci"
 )
 
 // PCI IDs list available at https://admin.pci-ids.ucw.cz/read/PD

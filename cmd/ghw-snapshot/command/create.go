@@ -15,7 +15,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/yuhuaqi/ghw/pkg/snapshot"
+	"github.com/YuHuaqi/ghw/pkg/snapshot"
 )
 
 var (

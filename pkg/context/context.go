@@ -9,8 +9,8 @@ package context
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw/pkg/option"
-	"github.com/yuhuaqi/ghw/pkg/snapshot"
+	"github.com/YuHuaqi/ghw/pkg/option"
+	"github.com/YuHuaqi/ghw/pkg/snapshot"
 )
 
 // Context contains the merged set of configuration switches that act as an

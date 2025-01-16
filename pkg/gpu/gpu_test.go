@@ -11,8 +11,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yuhuaqi/ghw/pkg/gpu"
-	"github.com/yuhuaqi/ghw/testdata"
+	"github.com/YuHuaqi/ghw/pkg/gpu"
+	"github.com/YuHuaqi/ghw/testdata"
 )
 
 func TestGPU(t *testing.T) {

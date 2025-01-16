@@ -9,7 +9,7 @@ package marshal
 import (
 	"encoding/json"
 
-	"github.com/yuhuaqi/ghw/pkg/context"
+	"github.com/YuHuaqi/ghw/pkg/context"
 	yaml "gopkg.in/yaml.v3"
 )
 

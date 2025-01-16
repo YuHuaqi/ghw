@@ -11,7 +11,7 @@ import (
 	"os"
 	"path/filepath"
 
-	pciaddr "github.com/yuhuaqi/ghw/pkg/pci/address"
+	pciaddr "github.com/YuHuaqi/ghw/pkg/pci/address"
 )
 
 const (
