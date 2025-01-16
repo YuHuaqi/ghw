@@ -1,8 +1,8 @@
 # `ghw` - Go HardWare discovery/inspection library
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/yuhuaqi/ghw.svg)](https://pkg.go.dev/github.com/yuhuaqi/ghw)
-[![Go Report Card](https://goreportcard.com/badge/github.com/yuhuaqi/ghw)](https://goreportcard.com/report/github.com/yuhuaqi/ghw)
-[![Build Status](https://github.com/yuhuaqi/ghw/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/yuhuaqi/ghw/actions)
+[![Go Reference](https://pkg.go.dev/badge/github.com/YuHuaqi/ghw.svg)](https://pkg.go.dev/github.com/YuHuaqi/ghw)
+[![Go Report Card](https://goreportcard.com/badge/github.com/YuHuaqi/ghw)](https://goreportcard.com/report/github.com/YuHuaqi/ghw)
+[![Build Status](https://github.com/YuHuaqi/ghw/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/YuHuaqi/ghw/actions)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 ![ghw mascot](images/ghw-gopher.png)
@@ -119,7 +119,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -200,7 +200,7 @@ information about the RAM on the host system.
 * `ghw.MemoryInfo.Modules` is an array of pointers to `ghw.MemoryModule`
   structs, one for each physical [DIMM](https://en.wikipedia.org/wiki/DIMM).
   Currently, this information is only included on Windows, with Linux support
-  [planned](https://github.com/yuhuaqi/ghw/pull/171#issuecomment-597082409).
+  [planned](https://github.com/YuHuaqi/ghw/pull/171#issuecomment-597082409).
 
 ```go
 package main
@@ -208,7 +208,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -229,8 +229,8 @@ memory (24GB physical, 24GB usable)
 
 #### Physical versus Usable Memory
 
-There has been [some](https://github.com/yuhuaqi/ghw/pull/171)
-[confusion](https://github.com/yuhuaqi/ghw/issues/183) regarding the
+There has been [some](https://github.com/YuHuaqi/ghw/pull/171)
+[confusion](https://github.com/YuHuaqi/ghw/issues/183) regarding the
 difference between the total physical bytes versus total usable bytes of
 memory.
 
@@ -259,7 +259,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -357,7 +357,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -398,7 +398,7 @@ block storage (1 disk, 2TB physical storage)
 ### Topology
 
 > **NOTE**: Topology support is currently Linux-only. Windows support is
-> [planned](https://github.com/yuhuaqi/ghw/issues/166).
+> [planned](https://github.com/YuHuaqi/ghw/issues/166).
 
 The `ghw.Topology()` function returns a `ghw.TopologyInfo` struct that contains
 information about the host computer's architecture (NUMA vs. SMP), the host's
@@ -466,7 +466,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -567,7 +567,7 @@ package main
 import (
     "fmt"
 
-    "github.com/yuhuaqi/ghw"
+    "github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -713,7 +713,7 @@ The `ghw.PCIAddress` struct has the following fields:
 
 > **NOTE**: Older versions (pre-`v0.9.0`) erroneously referred to the `Device`
 > field as the `Slot` field. As noted by [@pearsonk](https://github.com/pearsonk)
-> in [#220](https://github.com/yuhuaqi/ghw/issues/220), this was a misnomer.
+> in [#220](https://github.com/YuHuaqi/ghw/issues/220), this was a misnomer.
 
 The following code snippet shows how to list the PCI devices on the host system
 and output a simple list of PCI address and vendor/product information:
@@ -724,7 +724,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -832,7 +832,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -914,7 +914,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -972,7 +972,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -1024,7 +1024,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -1072,7 +1072,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -1114,7 +1114,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -1170,7 +1170,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -1230,7 +1230,7 @@ You can disable warning programmatically using the `WithDisableWarnings` option:
 ```go
 
 import (
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 mem, err := ghw.Memory(ghw.WithDisableWarnings())
@@ -1285,7 +1285,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yuhuaqi/ghw"
+	"github.com/YuHuaqi/ghw"
 )
 
 func main() {
@@ -1396,7 +1396,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yuhuaqi/ghw/pkg/snapshot"
+	"github.com/YuHuaqi/ghw/pkg/snapshot"
 )
 
 // ...

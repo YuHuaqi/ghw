@@ -1,4 +1,4 @@
-module github.com/yuhuaqi/ghw
+module github.com/YuHuaqi/ghw
 
 go 1.21
 

@@ -1,5 +1,5 @@
 FROM golang:1.21-buster as builder
-WORKDIR /go/src/github.com/yuhuaqi/ghw
+WORKDIR /go/src/github.com/YuHuaqi/ghw
 
 ENV GOPROXY=direct
 
@@ -19,6 +19,6 @@ RUN apk add --no-cache ethtool
 
 WORKDIR /bin
 
-COPY --from=builder /go/src/github.com/yuhuaqi/ghw/ghwc /bin
+COPY --from=builder /go/src/github.com/YuHuaqi/ghw/ghwc /bin
 
 CMD ghwc
